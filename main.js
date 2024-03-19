@@ -1,8 +1,10 @@
-// ...data/{id} -> get one data
 const BASE_URL = 'https://retoolapi.dev/aaEKEH/data';
+
 const dataList = document.querySelector('#list');
-const nameInput = document.querySelector('#nameInput');
-const idInput = document.querySelector('#idInput');
+
+const nameInput = document.querySelector('#name');
+const idInput = document.querySelector('#id');
+
 const deleteButton = document.querySelector('#delete');
 const updateButton = document.querySelector('#update');
 const addButton = document.querySelector('#add');
